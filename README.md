@@ -1,5 +1,8 @@
 # Transformer model for language translation
-My own implementation of the Transformer, a network architecture that was proposed in the paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+My own implementation of the Transformer, a network architecture that is based solely on attention mechanisms, without any use of LSTMs or RNNs
+
+##Reference
+[Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 
 
 
