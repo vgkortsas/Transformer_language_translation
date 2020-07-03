@@ -1,4 +1,5 @@
-# Transformer model for language translation
+# Transformer from "Attention is all you need" for language translation
+
 My own implementation of the Transformer, a network architecture that is based solely on attention mechanisms without any use of LSTMs or RNNs. I applied the Transformer to translate sentences from Portuguese to English. 
 
 ## Project
