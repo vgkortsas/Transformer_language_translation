@@ -30,8 +30,10 @@ The Transformer has the following advantages over the sequence to sequence model
 *   **Long-range dependency:** Self-attention allows to handle dependencies between input or output tokens themselves.
 
 
-## Reference
-[Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+## References
+*   [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+*   [Seq2seq pay Attention to Self Attention: Part 2](https://medium.com/@bgg/seq2seq-pay-attention-to-self-attention-part-2-cf81bf32c73d)
+*     [Why do Transformers yield Superior Sequence to Sequence(Seq2Seq)Results?](https://medium.com/saarthi-ai/transformers-attention-based-seq2seq-machine-translation-a28940aaa4fe)
 
 
 
