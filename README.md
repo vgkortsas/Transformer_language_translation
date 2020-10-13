@@ -17,7 +17,7 @@ A full list of the requirements is given [here](https://github.com/vgkortsas/Tra
 
 
 The encoder-decoder architecture **with** attention has the following challenges:
-* The sequential nature of RNNs/LSTMs results in **lack of parallelization**
+* The sequential nature of RNNs/LSTMs results in **lack of parallelization**.
 * **Increased computational complexity** of computing a separate context vector for every step of decoder.
 *  The **difficulty of learning long-range dependencies** in the network. This is related with the fact that the attention model **ignores the attention information inside the source sentence and the target sentence**.
 
