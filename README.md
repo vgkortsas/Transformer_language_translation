@@ -11,6 +11,20 @@ A full list of the requirements is given [here](https://github.com/vgkortsas/Tra
 - Python 3.5.5
 - TensorFlow 1.15.0
 
+## Some comments on the importance of the Transformer
+### Challenges of the encoder-decoder model ***with*** attention
+The encoder-decoder architecture **with** attention has the following challenges:
+* The sequential nature of RNNs/LSTMs results in lack of parallelization
+* Increased computational complexity of computing a separate context vector for every step of decoder.
+*  The difficulty of learning long-range dependencies in the network. This is related with the fact that the attention model ignores the attention information inside the source sentence and the target sentence.
+
+### Transformer
+The novel idea of the Transformer is to extend the attention mechanism to the process- ing of input and output sentences themselves as well. In addition, instead of going from left to right using RNNs and feeding the encoder one word at a time, the Transformer allows the encoder and decoder to see the entire input sequence all at once, directly modeling these dependencies using self-attention. 
+#### Advantages of the Transformer
+The Transformer has the following advantages over the sequence to sequence models with attention:
+*   **Parallelization:** The transformer allows the encoder and decoder to see the entire input sequence all at once, directly modeling these dependencies using self-attention.
+*   **Long-range dependency:** Self-attention allows to handle dependencies between input or output tokens themselves.
+
 
 ## Reference
 [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
