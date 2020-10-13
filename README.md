@@ -31,7 +31,7 @@ The Transformer has the following advantages over the sequence to sequence model
 *   **Long-range dependency:** Self-attention allows to handle dependencies between input or output tokens themselves.
 
 #### Disadvantages of the Transformer
-If the input does have a temporal/spatial relationship, like text, some positional en- coding must be added or the model will effectively see a bag of words.
+If the input does have a temporal/spatial relationship, like text, some positional encoding must be added or the model will effectively see a bag of words.
 
 ## References
 *   [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
