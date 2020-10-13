@@ -24,6 +24,7 @@ The encoder-decoder architecture **with** attention has the following challenges
 ### Transformer
 <img src="https://github.com/vgkortsas/Transformer/blob/master/images/transformer_full.png" width="500">
 Transformer is a network architecture that is based solely on attention mechanisms without any use of LSTMs or RNNs. The novel idea of the Transformer is to extend the attention mechanism to the processing of input and output sentences themselves as well. In addition, instead of going from left to right using RNNs and feeding the encoder one word at a time, the Transformer allows the encoder and decoder to see the entire input sequence all at once, directly modeling these dependencies using self-attention. 
+
 #### Advantages of the Transformer
 The Transformer has the following advantages over the sequence to sequence models with attention:
 *   **Parallelization:** The transformer allows the encoder and decoder to see the entire input sequence all at once, directly modeling these dependencies using self-attention.
