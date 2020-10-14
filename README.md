@@ -29,7 +29,7 @@ Transformer is a novel network architecture that aims to solve sequence-to-seque
 
 The novel idea of the Transformer is to extend the attention mechanism to the processing of input and output sentences themselves as well. In addition, instead of going from left to right using RNNs and feeding the encoder one word at a time, the Transformer allows the encoder and decoder to see the entire input sequence all at once, directly modeling these dependencies using self-attention. 
 
-Quoting from the paper "The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution". Here, “transduction” means the conversion of input sequences into output sequences.  
+Quoting from the paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762), "The Transformer is the first transduction model relying entirely on self-attention to compute representations of its input and output without using sequence-aligned RNNs or convolution". Here, “transduction” means the conversion of input sequences into output sequences.  
 
 #### Advantages of the Transformer
 The Transformer has the following advantages over the sequence to sequence models with attention:
