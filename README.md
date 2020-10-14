@@ -24,8 +24,8 @@ This does not refer to the dependency between the encoder and decoder sequences,
 
 ### Transformer
 <img src="https://github.com/vgkortsas/Transformer/blob/master/images/transformer_full.png" width="600">
-Transformer is a novel network architecture that aims to solve sequence-to-sequence tasks, while handling long-range dependencies with ease. It is an architecture for transforming one sequence into another one with the help of two parts (Encoder and Decoder), but it differs from the previously described/existing sequence-to-sequence models because it is based solely on attention mechanisms without any use of LSTMs or RNNs. 
 
+Transformer is a novel network architecture that aims to solve sequence-to-sequence tasks, while handling long-range dependencies with ease. It is an architecture for transforming one sequence into another one with the help of two parts (Encoder and Decoder), but it differs from the previously described/existing sequence-to-sequence models because it is based solely on attention mechanisms without any use of LSTMs or RNNs. 
 
 The novel idea of the Transformer is to extend the attention mechanism to the processing of input and output sentences themselves as well. In addition, instead of going from left to right using RNNs and feeding the encoder one word at a time, the Transformer allows the encoder and decoder to see the entire input sequence all at once, directly modeling these dependencies using self-attention. 
 
