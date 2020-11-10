@@ -23,7 +23,7 @@ The **encoder-decoder architecture with attention** has the following challenges
 This does not refer to the dependency between the encoder and decoder sequences, since this has been handled by the attention mechanism in encoder-decoder sequences. It is related with the fact that the attention model **ignores the attention information inside the source sentence and the target sentence**.
 
 ### Transformer
-<img src="https://github.com/vgkortsas/Transformer/blob/master/images/transformer_full.png" width="300">
+<img src="https://github.com/vgkortsas/Transformer/blob/master/images/transformer_full.png" width="400">
 
 Transformer is a novel network architecture that aims to solve sequence-to-sequence tasks, while handling long-range dependencies with ease. It is an architecture for transforming one sequence into another one with the help of two parts (Encoder and Decoder), but it differs from the previously described/existing sequence-to-sequence models because it is based solely on attention mechanisms without any use of LSTMs or RNNs. 
 
