@@ -3,7 +3,7 @@
 ## Project description
 My own implementation of the Transformer proposed in the paper [Attention Is All You Need](https://arxiv.org/abs/1706.03762). I applied the Transformer to translate sentences from Portuguese to English. 
 
-## Implementation
+## Implementation1
 [Jupyter Notebook](https://nbviewer.jupyter.org/github/vgkortsas/Transformer/blob/master/Transformer_language_translation.ipynb)
 
 ## Requirements
