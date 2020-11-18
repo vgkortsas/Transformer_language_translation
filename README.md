@@ -12,11 +12,11 @@ A full list of the requirements is given [here](https://github.com/vgkortsas/Tra
 - TensorFlow 1.15.0
 
 ## Some comments on the importance of the Transformer
-### Challenges of the encoder-decoder model ***with*** attention
+### Challenges of the LSTM/RNN encoder-decoder model ***with*** attention
 <img src="https://github.com/vgkortsas/Transformer/blob/master/images/attention2.png" width="500">
 
 
-The **encoder-decoder architecture with attention** has the following challenges:
+The **LSTM/RNN encoder-decoder architecture with attention** has the following challenges:
 * The sequential nature of RNNs/LSTMs results in **lack of parallelization**.
 * **Increased computational complexity** of computing a separate context vector for every step of decoder.
 *  The **difficulty of learning long-range dependencies** in the network. 
